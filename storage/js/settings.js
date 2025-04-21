@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		google: { title: "Google", favicon: "https://www.google.com/favicon.ico" },
 		petezah: {
 			title: "PeteZah",
-			favicon: "/storage/images/logo-png-removebg-preview.png",
+			favicon: "/storage/images/logo-nobg.svg",
 		},
 	};
 
