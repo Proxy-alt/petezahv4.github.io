@@ -9,7 +9,7 @@
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
   <title>PeteAI</title>
-  <link rel="icon" type="image/x-icon" href="/storage/images/logo-png-removebg-preview.png"> 
+  <link rel="icon" type="image/x-icon" href="/storage/images/logo-nobg.svg"> 
 <style>
 body {
   font-family: 'Inter', sans-serif;
@@ -214,7 +214,7 @@ img:hover {
 </head>
 <body>
   <div id="chat-container">
-    <div class="message bot"><img src="/storage/images/logo-png-removebg-preview.png" alt="AI Logo">Hello. How are you doing today?</div>
+    <div class="message bot"><img src="/storage/images/logo-nobg.svg" alt="AI Logo">Hello. How are you doing today?</div>
   </div>
   
   <div id="input-container">
@@ -280,7 +280,7 @@ img:hover {
 
         const botDiv = document.createElement('div');
         botDiv.className = 'message bot';
-        botDiv.innerHTML = `<img src="/storage/images/logo-png-removebg-preview.png" alt="AI Logo">${aiResponse}`;
+        botDiv.innerHTML = `<img src="/storage/images/logo-nobg.svg" alt="AI Logo">${aiResponse}`;
         chatContainer.appendChild(botDiv);
         chatContainer.scrollTop = chatContainer.scrollHeight;
         console.log('Response received and displayed');
@@ -288,7 +288,7 @@ img:hover {
         console.error('Error:', error);
         const errorDiv = document.createElement('div');
         errorDiv.className = 'message bot';
-        errorDiv.innerHTML = `<img src="/storage/images/logo-png-removebg-preview.png" alt="AI Logo"><strong>Error:</strong> Failed to get AI response. Error details: ${error.message}`;
+        errorDiv.innerHTML = `<img src="/storage/images/logo-nobg.svg" alt="AI Logo"><strong>Error:</strong> Failed to get AI response. Error details: ${error.message}`;
         chatContainer.appendChild(errorDiv);
         chatContainer.scrollTop = chatContainer.scrollHeight;
       }
