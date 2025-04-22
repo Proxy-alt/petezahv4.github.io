@@ -8,7 +8,7 @@
   "theme_color": "#0A1D37",
   "icons": [
     {
-      "src": "storage/images/logo-png-removebg-preview.png",
+      "src": "storage/images/logo-nobg.svg",
       "sizes": "512x512",
       "type": "image/png"
     },

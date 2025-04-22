@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
         popup.document.title = localStorage.getItem('siteTitle') || 'Home';
         const favicon = popup.document.createElement('link');
         favicon.rel = 'icon';
-        favicon.href = localStorage.getItem('siteLogo') || '/storage/images/logo-png-removebg-preview.png';
+        favicon.href = localStorage.getItem('siteLogo') || '/storage/images/logo-nobg.svg';
         popup.document.head.appendChild(favicon);
         const iframe = popup.document.createElement('iframe');
         iframe.src = '/index.html';
